@@ -3,7 +3,7 @@
 let listaAmigos = [];
 
 function agregarAmigo() {
-    const input = document.getElementById('amigo'); // Cambiado a 'amigo'
+    const input = document.getElementById('amigo'); 
     const amigo = input.value.trim();
     
     if (amigo === '') {
@@ -13,7 +13,7 @@ function agregarAmigo() {
     
     listaAmigos.push(amigo);
     input.value = '';
-    actualizarLista(); // Nueva función para mostrar la lista
+    actualizarLista();
 }
 
 function actualizarLista() {
